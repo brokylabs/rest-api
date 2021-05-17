@@ -1,0 +1,26 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "Study Kasus NodeJS-API B4-Jamaika",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brokylabs/rest-api.git"
+  },
+  "author": "Catur Hidayat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brokylabs/rest-api/issues"
+  },
+  "homepage": "https://github.com/brokylabs/rest-api#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.9",
+    "validator": "^13.6.0"
+  }
+}
