@@ -50,7 +50,7 @@ user_schema.pre('save', function(next){
     }else return next();
 });
 
-user_schema.methodes.isPassMatch = function (pass, callback){
+user_schema.methods.isPassMatch = function (pass, callback){
     bcrypt.compare(pass, this.password, function (err, isMatch){
         if(err) return callback(err);
         callback(null, isMatch);
